@@ -42,7 +42,21 @@ The data used in this project comes from Rockbuster Stealth’s internal systems
 - `/Scripts/` SQL scripts for querying the data.
 - `/Output/` Power Point Presentation with Tableau visualizations generated from the SQL queries.
 
+## SQL Queries
+
+The following SQL queries are available in the `/Scripts` folder:
+
+- **[Top Countries and Customers Analysis](./scripts/customer_analysis_top_countries_and_customers.sql)**: Queries to analyze customer data, including:
+  - Top 10 countries by customer count.
+  - Top 10 country and city combinations by customer count.
+  - Top 5 customers based on total amount paid.
+
+- **[Top Customers Payment Analysis](./scripts/top_customers_payment_analysis.sql)**: Queries to analyze customer payments, including:
+  - Average amount paid by the top 5 customers.
+  - Distribution of the top 5 customers across different countries.
+
 ## Results
+
 Click here for the Storyboard in [Tableau](https://public.tableau.com/app/profile/magdalena.hofbauer/viz/CF_Exercise3_10_RockbusterDataAnalysis/RockbusterAnalysis)
 
 Some expected insights from the analysis include:
